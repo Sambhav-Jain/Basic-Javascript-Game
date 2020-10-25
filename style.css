@@ -1,19 +1,19 @@
-body{
-    width: 100vw;
-    /* height: 100vh; */
-    background-color: #252521;
-}
 *{
     margin:0;
     padding:0;
     color: #fff;
     box-sizing: border-box;
 }
+body{
+    width: 100vw;
+    background-color: #252521;
+    font-size: 16px;
+}
 .header{
     text-align: center;
     padding:10px;
 }
-h2{
+.header h2{
     font-size: 2rem;
 }
 a{
@@ -39,9 +39,12 @@ a div{
     width: 70%;
     padding-right: 1rem;
 }
+a div p{
+    padding:5px 0;
+}
 h2,a div h3{
     color:rgb(199, 212, 17);
-    margin:5px 0;
+    margin:10px 0;
 }
 a:hover,a:focus{
     box-shadow: 0 0 10px 5px rgba(200,200,200,.3);
